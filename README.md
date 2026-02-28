@@ -55,9 +55,12 @@ Edit `.env` and fill in your values:
 
 ```env
 # ⚠️ REQUIRED: Replace with your real MongoDB password
-MONGODB_URI=mongodb+srv://keskarna12:YOUR_REAL_PASSWORD@cluster0.kkalafx.mongodb.net/hentai?appName=Cluster0
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/hentai?appName=Cluster0
 
-JWT_SECRET=hentai_super_secret_jwt_key_change_in_production_2024
+# JWT
+JWT_SECRET=your_jwt_secret_key_change_in_production
+
+
 PORT=5000
 NODE_ENV=development
 ```
